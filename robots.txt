@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://wsaibio.github.io/ecmlpkdd2026/sitemap.xml
