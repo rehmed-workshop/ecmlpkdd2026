@@ -400,17 +400,14 @@ ul {
 }
 
 .countdown {
-    position: relative;
-    z-index: 1;
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 12px;
-    margin-top: 8px;
-    margin-bottom: 12px;
+    gap: 8px;
+    margin: 0 0 16px;
 }
 
 .countdown__item {
-    padding: 18px 12px;
+    padding: 12px 8px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     border-radius: var(--radius-md);
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.08) 100%);
@@ -421,23 +418,27 @@ ul {
 .countdown__item strong {
     display: block;
     margin-bottom: 4px;
-    font-size: 1.6rem;
+    font-size: 1.15rem;
 }
 
 .countdown__item span {
     color: rgba(228, 240, 255, 0.86);
-    font-size: 0.74rem;
+    font-size: 0.66rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
 }
 
+.countdown--compact {
+    margin-bottom: 14px;
+}
+
 .section {
     position: relative;
-    padding: 120px 0 96px;
+    padding: 45px 0 68px;
 }
 
 .section--intro {
-    padding-top: 120px;
+    padding-top: 96px;
 }
 
 .section--soft {
@@ -447,7 +448,7 @@ ul {
 
 .section-head {
     max-width: 780px;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
 }
 
 .section-head__eyebrow {
@@ -912,13 +913,13 @@ section[id] {
 
     .countdown {
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        margin-bottom: 8px;
+        margin-bottom: 12px;
     }
 
     .section,
     .section--intro {
-        padding-top: 104px;
-        padding-bottom: 80px;
+        padding-top: 88px;
+        padding-bottom: 60px;
     }
 
     .topic-grid {
@@ -987,14 +988,14 @@ section[id] {
 
     .countdown {
         grid-template-columns: 1fr 1fr;
-        gap: 10px;
-        margin-bottom: 4px;
+        gap: 8px;
+        margin-bottom: 10px;
     }
 
     .section,
     .section--intro {
-        padding-top: 84px;
-        padding-bottom: 64px;
+        padding-top: 70px;
+        padding-bottom: 44px;
     }
 
     .panel,
@@ -1010,7 +1011,7 @@ section[id] {
     }
 
     .section-head {
-        margin-bottom: 22px;
+        margin-bottom: 16px;
     }
 
     .timeline__item {
@@ -1038,12 +1039,12 @@ section[id] {
 
     .section,
     .section--intro {
-        padding-top: 72px;
-        padding-bottom: 56px;
+        padding-top: 56px;
+        padding-bottom: 36px;
     }
 
     .section-head {
-        margin-bottom: 18px;
+        margin-bottom: 14px;
     }
 
     .hero h1 {
@@ -1127,11 +1128,11 @@ section[id] {
     }
 
     .countdown__item {
-        padding: 12px 8px;
+        padding: 10px 6px;
     }
 
     .countdown__item strong {
-        font-size: 1.15rem;
+        font-size: 1rem;
     }
 }
 
